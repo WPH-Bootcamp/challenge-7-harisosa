@@ -1,0 +1,51 @@
+{
+    "code" : 200,
+    "data": [
+        {
+            "id": 1,
+            "name": "Adobe",
+            "logoUrl": "/assets/logos/brand-logo-1.svg"
+        },
+        {
+            "id": 2,
+            "name": "Upwork",
+            "logoUrl": "/assets/logos/brand-logo-2.svg"
+        },
+        {
+            "id": 3,
+            "name": "Zoom",
+            "logoUrl": "/assets/logos/brand-logo-3.svg"
+        },
+        {
+            "id": 4,
+            "name": "Postman",
+            "logoUrl": "/assets/logos/brand-logo-4.svg"
+        },
+        {
+            "id": 5,
+            "name": "Data Bricks",
+            "logoUrl": "/assets/logos/brand-logo-5.svg"
+        },
+        {
+            "id": 6,
+            "name": "AirBnB",
+            "logoUrl": "/assets/logos/brand-logo-6.svg"
+        },
+        {
+            "id": 7,
+            "name": "Dropbox",
+            "logoUrl": "/assets/logos/brand-logo-7.svg"
+        },
+        {
+            "id": 8,
+            "name": "Paypal",
+            "logoUrl": "/assets/logos/brand-logo-8.svg"
+        },
+        {
+            "id": 9,
+            "name": "Netflix",
+            "logoUrl": "/assets/logos/brand-logo-9.svg"
+        }
+    ],
+    "success":true
+}

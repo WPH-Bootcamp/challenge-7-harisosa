@@ -1,0 +1,30 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "id": "projects",
+            "value": "50+",
+            "label": "Projects Delivered",
+            "highlight": true
+        },
+        {
+            "id": "experience",
+            "value": "5+",
+            "label": "Years of Experience",
+            "highlight": true
+        },
+        {
+            "id": "awards",
+            "value": "10+",
+            "label": "Industry Awards Won",
+            "highlight": true
+        },
+        {
+            "id": "satisfaction",
+            "value": "100%",
+            "label": "Client Satisfaction Rate",
+            "highlight": true
+        }
+    ],
+    "success":true
+}

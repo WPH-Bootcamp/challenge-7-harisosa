@@ -1,0 +1,56 @@
+.card-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--card-bg);
+    border-radius: 100%;
+    width: 173px;
+    height: 173px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.card-circle span {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--text-orange);
+}
+
+.card-circle p {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+
+
+
+@media (min-width: 768px) {
+    .card-circle {
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .card-circle {
+        width: 250px;
+        height: 250px;
+        padding: 0px
+    }
+
+    .card-circle span {
+        font-size: 2.25rem;
+        /* text-4xl = 36px */
+    }
+
+    .card-circle p {
+        font-size: 1.25rem;
+        /* text-xl = 20px */
+    }
+}
