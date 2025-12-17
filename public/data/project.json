@@ -1,0 +1,27 @@
+{
+    "code": 200,
+    "success": true,
+    "data": [
+        {
+            "id": 1,
+            "type": "Landing Page",
+            "title": "Portfolio 1",
+            "imageUrl": "./assets/images/porto-1.svg",
+            "alt": "Portfolio 1"
+        },
+        {
+            "id": 2,
+            "type": "Landing Page",
+            "title": "Portfolio 2",
+            "imageUrl": "./assets/images/porto-2.svg",
+            "alt": "Portfolio 2"
+        },
+        {
+            "id": 3,
+            "type": "Landing Page",
+            "title": "Portfolio 3",
+            "imageUrl": "./assets/images/porto-3.svg",
+            "alt": "Portfolio 3"
+        }
+    ]
+}

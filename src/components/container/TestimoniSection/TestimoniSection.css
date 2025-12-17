@@ -1,0 +1,24 @@
+.testi-section {
+  padding: 80px 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.testi-container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 24px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testi-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--text-primary);
+}
+
+.testi-subtitle {
+  margin-bottom: 64px;
+  color: var(--text-secondary);
+}

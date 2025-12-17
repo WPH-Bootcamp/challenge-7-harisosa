@@ -28,7 +28,7 @@ const ResultSection: React.FC = () => {
             <div className="result-layout">
                 {
                     results.map(result => {
-                        return <CircleCard>
+                        return <CircleCard key={result.id}>
                             <span >{result.value}</span>
                             <p>{result.label}</p>
                         </CircleCard>

@@ -1,8 +1,14 @@
-import ClientSection from "./components/container/ClientSection/ClientSection";
+
+
+import ClientSection from "./components/container/ClientSection";
 import Hero from "./components/container/HeroSection";
-import ProcessSection from "./components/container/ProcessSection/ProcessSection";
-import ResultSection from "./components/container/ResultSection/ResultSection";
-import Navbar from "./components/ui/Navbar/Navbar";
+import IndustrySection from "./components/container/IndustrySection/IndustrySection";
+import ProcessSection from "./components/container/ProcessSection";
+import ProjectSection from "./components/container/ProjectSection";
+import ResultSection from "./components/container/ResultSection";
+import ServiceSection from "./components/container/ServiceSection";
+import TestimoniSection from "./components/container/TestimoniSection";
+import { Navbar } from "./components/ui/Navbar";
 
 
 
@@ -11,10 +17,14 @@ function App() {
     <>
       <Navbar />
       <main>
-        <Hero />
+        <Hero/>
         <ClientSection />
         <ResultSection />
         <ProcessSection />
+        <ServiceSection />
+        <IndustrySection />
+        <ProjectSection />
+        <TestimoniSection />
       </main>
     </>
   );

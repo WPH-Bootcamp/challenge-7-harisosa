@@ -1,0 +1,30 @@
+{
+    "code": 200,
+    "success": true,
+    "data": [
+        {
+            "id": 1,
+            "stars": 5,
+            "text": "A game-changer for our project. They understood our needs and turned it into reality efficiently and effectively.",
+            "name": "John Lee",
+            "role": "Director at Innovate Corp",
+            "avatarUrl": "./assets/images/testimoni-1.svg"
+        },
+        {
+            "id": 2,
+            "stars": 5,
+            "text": "The team delivered exactly what we needed — on time and with outstanding quality. Their attention to detail and communication were top-notch.",
+            "name": "Sarah Tan",
+            "role": "Product Manager at Finovate",
+            "avatarUrl": "./assets/images/testimoni-2.svg"
+        },
+        {
+            "id": 3,
+            "stars": 5,
+            "text": "The collaboration was seamless, and they exceeded our expectations. Their expertise translated into a successful project.",
+            "name": "Emily Chen",
+            "role": "Marketing Head at Techa",
+            "avatarUrl": "./assets/images/testimoni-3.svg"
+        }
+    ]
+}

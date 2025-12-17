@@ -15,6 +15,8 @@ const ClientSection: React.FC = () => {
         getLogos();
     }, []);
     
+    //TODO : Move to css
+
     return (
         <section id='client' className="px-6 md:px-12 lg:px-20 ">
             <h2 className="text-center mb-8 text-lg tracking-wide font-bold text-[var(--text-primary)]">
@@ -24,7 +26,7 @@ const ClientSection: React.FC = () => {
                 <div className="flex gap-12 items-center">
                     {
                         logos.map(logo => {
-                            return <img src={logo.logoUrl} alt={logo.logoUrl}
+                            return <img key={logo.id} src={logo.logoUrl} alt={logo.logoUrl}
                                 className="w-[126px] h-18 mix-blend-luminosity object-contain" />
                         })
                     }

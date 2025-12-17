@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import fetchJson from "../../../api/fetchJson";
 import type { Process } from "../../../types";
 
-const ProcessSection : React.FC = () => {
+const ProcessSection: React.FC = () => {
 
   const [processes, setprocesses] = useState<Process[]>([]);
 
@@ -14,9 +14,9 @@ const ProcessSection : React.FC = () => {
     setprocesses(process)
   }
 
-  useEffect(()=>{
+  useEffect(() => {
     getProcess();
-  },[])
+  }, [])
 
   return (
     <section className="process-section">

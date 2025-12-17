@@ -1,0 +1,29 @@
+{
+    "code": 200,
+    "data":  [
+      {
+        "key": "fintech",
+        "label": "Fintech",
+        "description":
+          "We build secure, scalable, and compliant fintech solutions — from digital wallets to core banking systems — tailored to modern financial needs.",
+        "imageUrl": "./assets/images/fintech.svg",
+        "alt": "Fintech"
+      },
+      {
+        "key": "ecommerce",
+        "label": "E-Commerce",
+        "description":
+          "Boost your online sales with fast, reliable platforms designed for seamless shopping experiences, inventory management, and payment integration.",
+        "imageUrl": "./assets/images/ecommerce.svg",
+        "alt": "E-Commerce"
+      },
+      {
+        "key": "healthcare",
+        "label": "Healthcare",
+        "description":"Power modern healthcare systems with secure data management, patient portals, and AI-assisted diagnostics.",
+        "imageUrl": "./assets/images/healthcare.svg",
+        "alt": "Healthcare"
+      }
+    ],
+    "success": true
+} 
