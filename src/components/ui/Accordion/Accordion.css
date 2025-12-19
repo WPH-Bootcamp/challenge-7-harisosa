@@ -1,0 +1,64 @@
+
+
+.item {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 16px; /* pb-4 */
+}
+
+.toogle-btn {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  padding: 12px 0; /* py-3 */
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+
+  font-weight: 700;
+  font-size: 20px; /* text-xl */
+  color: var(--text-primary);
+}
+
+.question {
+  padding-right: 18px;
+}
+
+.toggle-icon {
+  font-size: 24px; /* text-2xl */
+  color: var(--text-orange);
+  line-height: 1;
+}
+
+/* collapsible content */
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 220ms ease;
+}
+
+.content.is-open {
+  max-height: 220px; /* cukup untuk 2-4 baris */
+}
+
+.answer {
+    padding-top: 16px;
+    padding-bottom: 28px;
+  margin-top: 8px; /* mt-2 */
+  color: var(--text-secondary);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+/* mobile font reduce */
+@media (max-width: 640px) {
+  .f-btn {
+    font-size: 18px;
+  }
+  .answer {
+    font-size: 16px;
+  }
+}

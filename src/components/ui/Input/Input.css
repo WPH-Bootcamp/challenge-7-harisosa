@@ -1,0 +1,60 @@
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+.form-required {
+  color: var(--text-orange);
+  margin-left: 4px;
+}
+
+/* input & textarea base */
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 12px 16px;
+
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+
+  background: transparent;
+  color: var(--text-primary);
+  font-size: 15px;
+
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* placeholder */
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: var(--text-secondary);
+}
+
+/* focus state */
+.form-input:focus,
+.form-textarea:focus {
+  border-color: var(--text-orange);
+  box-shadow: 0 0 0 2px rgba(255, 100, 51, 0.35);
+}
+
+/* textarea specific */
+.form-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* mobile tuning */
+@media (max-width: 640px) {
+  .form-input,
+  .form-textarea {
+    font-size: 14px;
+    padding: 11px 14px;
+  }
+}

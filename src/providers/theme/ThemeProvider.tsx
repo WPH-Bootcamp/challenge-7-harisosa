@@ -4,7 +4,7 @@ import type { ThemeContextValue, ThemeMode } from "./";
 
 const STORAGE_KEY = "app.theme";
 
-function getInitialMode(): ThemeMode {
+const getInitialMode = (): ThemeMode => {
   const saved = localStorage.getItem(STORAGE_KEY);
   if (saved === "light" || saved === "dark") return saved;
 
@@ -14,11 +14,11 @@ function getInitialMode(): ThemeMode {
   return prefersDark ? "dark" : "light";
 }
 
-function applyModeToHtml(mode: ThemeMode) {
+const applyModeToHtml = (mode: ThemeMode) => {
   document.documentElement.classList.toggle("dark", mode === "dark");
 }
 
-export function ThemeProvider({ children }: { children: React.ReactNode }) {
+export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
   const [mode, setMode] = useState<ThemeMode>(() => getInitialMode());
 
   useEffect(() => {

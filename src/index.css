@@ -31,13 +31,6 @@ html.dark {
     --footer-background: #0A0D12;
 }
 
-html, body {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-  margin: 0;
-}
-
 html{
     display: flex;
     justify-content: center; 
