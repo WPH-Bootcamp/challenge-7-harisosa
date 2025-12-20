@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Modal.css";
 import { useModal } from "../../../shared/hooks";
+import Button from "../../ui/Button";
 
 type ModalProps = {
   open: boolean;
@@ -56,10 +57,9 @@ const Modal: React.FC<ModalProps> = ({
       aria-modal="true"
       aria-labelledby="message-received-title"
     >
-      <button
-        type="button"
+      <Button
         className='backdrop'
-        aria-label="Close modal"
+        ariaLabel="Close modal"
         onClick={onClose}
       />
       <div className='modalBox'>

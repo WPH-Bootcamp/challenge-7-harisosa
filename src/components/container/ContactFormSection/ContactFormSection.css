@@ -74,7 +74,6 @@
   column-gap: 32px;
 }
 
-/* desktop-ish: bikin 2 kolom agar mirip layout lama */
 @media (min-width: 1024px) {
   .services-grid {
     grid-auto-flow: column;

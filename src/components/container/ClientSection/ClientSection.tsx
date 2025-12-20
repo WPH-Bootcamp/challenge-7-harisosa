@@ -26,7 +26,7 @@ const ClientSection: React.FC = () => {
                 <div className="flex gap-12 items-center">
                     {
                         logos.map(logo => {
-                            return <img key={logo.id} src={logo.logoUrl} alt={logo.logoUrl}
+                            return <img key={logo.id} src={logo.logoUrl} alt={logo.name}
                                 className="w-[126px] h-18 mix-blend-luminosity object-contain" />
                         })
                     }

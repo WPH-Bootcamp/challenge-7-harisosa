@@ -19,12 +19,10 @@ const StepCard : React.FC<StepCardProps> = (props) =>{
 
   return (
     <div className={['step-row', isOdd ? 'step-row--odd' : 'step-row--even'].join(' ')}>
-      {/* MOBILE indicator */}
       <div className='only-mobile'>
         <StepIndicator step={number} variant='mobile' position={position} />
       </div>
 
-      {/* Zig-zag placement on lg */}
       {isOdd ? (
         <>
           <div className='step-card'>

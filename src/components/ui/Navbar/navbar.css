@@ -1,4 +1,4 @@
-/* ========= Navbar ========= */
+
 .navbar {
   position: sticky;
   top: 0;
@@ -35,7 +35,6 @@
   padding-bottom: 20px;
 }
 
-/* Brand */
 .brand {
   display: flex;
   align-items: center;
@@ -48,7 +47,6 @@
   display: block;
 }
 
-/* Desktop nav */
 .navlinks {
   display: none;
   align-items: center;
@@ -74,7 +72,6 @@
   color: var(--text-orange);
 }
 
-/* Actions */
 .navactions {
   display: flex;
   align-items: center;
@@ -140,12 +137,12 @@
   }
 }
 
-/* ========= Mobile Menu Overlay ========= */
+
 .mobileMenu {
   position: fixed;
   inset: 0;
   z-index: 100;
-  display: none; /* closed by default */
+  display: none;
   flex-direction: column;
   background: var(--bg-primary);
   min-height: 100vh;
@@ -216,7 +213,6 @@
   background: #ff764c;
 }
 
-/* Theme switch */
 .themeSwitch {
   display: flex;
   align-items: center;
@@ -239,11 +235,11 @@
 }
 
 .themeSwitch__toggle--off {
-  background: #9ca3af; /* gray-400 */
+  background: #9ca3af;
 }
 
 .themeSwitch__toggle--on {
-  background: #f97316; /* orange-500 */
+  background: #f97316;
 }
 
 .themeSwitch__knob {

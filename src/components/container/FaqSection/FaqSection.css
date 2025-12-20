@@ -9,7 +9,6 @@
 .faq-top {
     width: 100%;
     padding: 20px 0;
-    /* py-5 */
 }
 
 .faq-topRow {
@@ -42,7 +41,6 @@
     line-height: 1.6;
 }
 
-/* main grid */
 .faq-body {
     width: 100%;
     max-width: 1440px;
@@ -54,7 +52,6 @@
     gap: 40px;
 }
 
-/* desktop: 3 kolom, kiri 2 kolom */
 @media (min-width: 1024px) {
     .faq-body {
         display: flex;
@@ -65,21 +62,17 @@
     }
 }
 
-/* md padding */
 @media (min-width: 768px) {
     .faq-section {
         padding-left: 48px;
         padding-right: 48px;
-        /* md:px-12 */
     }
 }
 
-/* lg padding */
 @media (min-width: 1024px) {
     .faq-section {
         padding-left: 80px;
         padding-right: 80px;
-        /* lg:px-20 */
     }
 }
 
