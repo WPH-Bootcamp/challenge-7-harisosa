@@ -1,0 +1,125 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.backdrop {
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.modalBox {
+  position: relative;
+  overflow: hidden;
+
+  width: 518px;
+  height: 479px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: var(--bg-primary);
+
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+.top {
+  height: 225px;
+  background: var(--footer-background);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 228px;
+  height: auto;
+}
+
+.bottom {
+  flex: 1;
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .bottom {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+.desc {
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+}
+
+@media (min-width: 1024px) {
+  .desc {
+    font-size: 16px;
+  }
+}
+
+.cta {
+  width: 100%;
+  border: 0;
+  border-radius: 999px;
+
+  background: var(--background-orange);
+  color: var(--text-white);
+
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px 16px;
+
+  cursor: pointer;
+  transition: filter 200ms ease, transform 200ms ease;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.cta:hover {
+  filter: brightness(1.1);
+}
+
+.cta:active {
+  transform: translateY(1px);
+}
+
+/* Optional: reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  .cta {
+    transition: none;
+  }
+}

@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Button from "../Button";
 import { useTheme } from "../../../shared/hooks/useTheme";
-import DarkLogo from "../../../assets/logos/logo.svg";
-import LightLogo from "../../../assets/logos/light-logo.svg";
 import "./navbar.css";
 import type { ThemeMode } from "../../../providers/theme";
 
@@ -64,7 +62,7 @@ export const Navbar: React.FC = () => {
 const BrandLogo = ({ theme }: { theme: ThemeMode }) => {
   return (
     <div className="brand">
-      <img src={theme ==='dark'? DarkLogo : LightLogo} alt="Logo" className="brand__logo brand__logo--dark" />
+      <img src={theme ==='dark'? 'assets/logos/logo.svg' : 'assets/logos/light-logo.svg'} alt="Logo" className="brand__logo brand__logo--dark" />
     </div>
   );
 }

@@ -1,6 +1,4 @@
 import React from 'react';
-import Banner from '../../../assets/images/banner.svg'
-import BannerLight from '../../../assets/images/light-banner.svg';
 import Button from '../../ui/Button';
 import './Hero.css';
 import { useTheme } from '../../../shared/hooks';
@@ -30,7 +28,7 @@ const Hero: React.FC = () => {
       </div>
 
       <div className='hero-img'>
-        <img src={mode === 'light' ? BannerLight : Banner} alt='Hero' className='w-full h-auto object-contain' />
+        <img src={mode === 'dark' ? 'assets/images/banner.svg' : 'assets/images/light-banner.svg'} alt='Hero' className='w-full h-auto object-contain' />
       </div>
     </section>
 };

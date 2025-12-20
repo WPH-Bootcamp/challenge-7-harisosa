@@ -50,5 +50,10 @@ body {
 @media (max-width: 670px) {
     body {
         width: 100%;
+        max-width: 100%;
+    }
+
+    #root{
+        width: 100%;
     }
 }

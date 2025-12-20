@@ -5,7 +5,7 @@
   overflow-x: hidden;         
   position: relative;
 
-  height: 375px;
+  height: 475px;
   box-sizing: border-box;
 }
 
@@ -41,6 +41,7 @@
   filter: blur(1px);
   transform: scale(0.94);
   transition: opacity 250ms ease, transform 250ms ease, filter 250ms ease;
+  height: 400px;
 }
 
 .slider-swiper .swiper-slide-active {

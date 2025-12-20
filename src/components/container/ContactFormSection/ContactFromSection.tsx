@@ -38,7 +38,8 @@ const ContactFormSection : React.FC = () => {
   };
 
   const handleSend = () => {
-    openModal("modal-success");
+    const randomBool = Math.random() >= 0.5;
+    openModal(randomBool ? "modal-success" : "modal-failed");
   };
 
   return (

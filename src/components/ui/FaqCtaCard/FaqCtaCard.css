@@ -62,5 +62,14 @@
 @media (max-width: 640px) {
   .faq-cta {
     padding: 24px;
+    width: 100%;
+  }
+  .faq-right{
+    display: flex;
+    justify-content: center;
+  }
+
+  .faq-cta-image{
+    width: 100%;
   }
 }

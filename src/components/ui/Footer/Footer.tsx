@@ -4,8 +4,6 @@ import FacebookIcon from "../Icon/FacebookIcon";
 import InstagramIcon from "../Icon/InstagramIcon";
 import LinkedInIcon from "../Icon/LinkedInIcon";
 import TikTokIcon from "../Icon/TikTokIcon";
-import DarkLogo from "../../../assets/logos/logo.svg";
-import LightLogo from "../../../assets/logos/light-logo.svg";
 import { useTheme } from "../../../shared/hooks";
 
 const Footer: React.FC = () => {
@@ -20,7 +18,7 @@ const Footer: React.FC = () => {
                 LET’S DISCUSS <br /> YOUR IDEAS
             </h2>
 
-            <img src={mode === 'dark' ? DarkLogo : LightLogo} alt="Logo" className="footer-logo" />
+            <img src={mode === 'dark' ? 'assets/logos/logo.svg' : 'assets/logos/light-logo.svg'} alt="Logo" className="footer-logo" />
             </div>
 
             {/* Bottom Section */}

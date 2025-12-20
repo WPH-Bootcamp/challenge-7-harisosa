@@ -4,7 +4,6 @@ import Accordion from "../../ui/Accordion";
 import FaqCtaCard from "../../ui/FaqCtaCard";
 import type { FaqItem } from "../../../types";
 import fetchJson from "../../../api/fetchJson";
-import CTAImg from "../../../assets/images/faq.svg";
 
 const FaqSection: React.FC = () => {
   const [faqs, setFaqs] = useState<FaqItem[]>([]);
@@ -36,7 +35,7 @@ const FaqSection: React.FC = () => {
           <FaqCtaCard
             title={"Let’s talk it through"}
             subtitle={"Book a free consultation with our team."}
-            image={CTAImg}
+            image={'/assets/images/faq.svg'}
             buttonText={"Free Consultation"}
             onClick={()=> {}}
           />
