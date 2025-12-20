@@ -37,7 +37,6 @@
   fill: var(--text-primary);
 }
 
-/* checked state */
 .checkbox-input:checked + .checkbox-box {
   border-color: #ff6433;
   background-color: #ff6433;
@@ -48,7 +47,6 @@
   opacity: 1;
 }
 
-/* hover/focus */
 .checkbox:hover .checkbox-box {
   border-color: rgba(255, 100, 51, 0.7);
 }

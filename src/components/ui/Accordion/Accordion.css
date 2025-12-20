@@ -2,14 +2,14 @@
 
 .item {
   border-bottom: 1px solid var(--border-color);
-  padding-bottom: 16px; /* pb-4 */
+  padding-bottom: 16px; 
 }
 
 .toogle-btn {
   width: 100%;
   background: transparent;
   border: 0;
-  padding: 12px 0; /* py-3 */
+  padding: 12px 0;
   cursor: pointer;
 
   display: flex;
@@ -18,7 +18,7 @@
   text-align: left;
 
   font-weight: 700;
-  font-size: 20px; /* text-xl */
+  font-size: 20px;
   color: var(--text-primary);
 }
 
@@ -27,12 +27,11 @@
 }
 
 .toggle-icon {
-  font-size: 24px; /* text-2xl */
+  font-size: 24px;
   color: var(--text-orange);
   line-height: 1;
 }
 
-/* collapsible content */
 .content {
   max-height: 0;
   overflow: hidden;
@@ -40,20 +39,19 @@
 }
 
 .content.is-open {
-  max-height: 220px; /* cukup untuk 2-4 baris */
+  max-height: 220px;
 }
 
 .answer {
     padding-top: 16px;
     padding-bottom: 28px;
-  margin-top: 8px; /* mt-2 */
+  margin-top: 8px;
   color: var(--text-secondary);
   font-size: 18px;
   font-weight: 500;
   line-height: 1.6;
 }
 
-/* mobile font reduce */
 @media (max-width: 640px) {
   .f-btn {
     font-size: 18px;

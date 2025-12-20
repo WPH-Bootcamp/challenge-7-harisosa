@@ -51,14 +51,12 @@
   background: #f3f4f6;
 }
 
-/* lg title bigger */
 @media (min-width: 1024px) {
   .faq-cta-title {
-    font-size: 36px; /* lg:text-4xl */
+    font-size: 36px;
   }
 }
 
-/* mobile padding */
 @media (max-width: 640px) {
   .faq-cta {
     padding: 24px;

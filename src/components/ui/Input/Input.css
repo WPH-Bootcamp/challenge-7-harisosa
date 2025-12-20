@@ -14,7 +14,6 @@
   margin-left: 4px;
 }
 
-/* input & textarea base */
 .form-input,
 .form-textarea {
   width: 100%;
@@ -31,26 +30,22 @@
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* placeholder */
 .form-input::placeholder,
 .form-textarea::placeholder {
   color: var(--text-secondary);
 }
 
-/* focus state */
 .form-input:focus,
 .form-textarea:focus {
   border-color: var(--text-orange);
   box-shadow: 0 0 0 2px rgba(255, 100, 51, 0.35);
 }
 
-/* textarea specific */
 .form-textarea {
   resize: vertical;
   min-height: 120px;
 }
 
-/* mobile tuning */
 @media (max-width: 640px) {
   .form-input,
   .form-textarea {

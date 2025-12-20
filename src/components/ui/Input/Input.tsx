@@ -1,7 +1,7 @@
 import React from "react";
 import type { InputProps } from "./input-props";
 import "./Input.css";
-//give type here
+
 const Input: React.FC<InputProps> = (props) => {
   const { label, type = "text", name, value, onChange, placeholder, required, rows } = props;
 
