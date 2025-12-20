@@ -8,28 +8,27 @@
 .project-container {
   width: 100%;
   max-width: 1440px;
-  padding: 0 24px; /* px-6 */
+  padding: 0 24px;
   text-align: center;
 }
 
 .project-title {
   font-weight: 700;
-  font-size: 24px; /* text-2xl */
-  margin-bottom: 12px; /* mb-3 */
+  font-size: 24px; 
+  margin-bottom: 12px;
 }
 
 .project-subtitle {
   font-weight: 600;
-  font-size: 16px; /* text-md */
-  color: #9ca3af; /* text-gray-400 */
-  margin-bottom: 64px; /* mb-16 */
+  font-size: 16px;
+  color: #9ca3af;
+  margin-bottom: 64px;
 }
 
-/* Grid */
 .project-grid {
   display: grid;
-  grid-template-columns: 1fr; /* grid-cols-1 */
-  gap: 32px; /* gap-8 */
+  grid-template-columns: 1fr;
+  gap: 32px;
 }
 
 .project-card {
@@ -41,25 +40,25 @@
 
 .project-image {
   width: 100%;
-  border-radius: 16px; /* rounded-2xl */
+  border-radius: 16px;
   transition: transform 0.3s ease;
   display: block;
 }
 
 .project-image:hover {
-  transform: translateY(-8px); /* hover:-translate-y-2 */
+  transform: translateY(-8px);
 }
 
 .project-type {
-  margin-top: 16px; /* mt-4 */
-  font-size: 14px; /* text-sm */
+  margin-top: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--text-orange);
   width: 100%;
 }
 
 .project-name {
-  font-size: 18px; /* text-lg */
+  font-size: 18px;
   font-weight: 600;
   width: 100%;
 }
@@ -67,33 +66,32 @@
 /* md */
 @media (min-width: 768px) {
   .project-container {
-    padding: 0 48px; /* md:px-12 */
+    padding: 0 48px;
   }
 
   .project-title {
-    font-size: 30px; /* md:text-3xl */
+    font-size: 30px;
   }
 
   .project-subtitle {
-    font-size: 18px; /* md:text-lg */
+    font-size: 18px;
   }
 
   .project-grid {
-    grid-template-columns: repeat(3, 1fr); /* md:grid-cols-3 */
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-/* lg */
 @media (min-width: 1024px) {
   .project-container {
-    padding: 0 80px; /* lg:px-20 */
+    padding: 0 80px;
   }
 
   .project-title {
-    font-size: 36px; /* lg:text-4xl */
+    font-size: 36px;
   }
 
   .project-grid {
-    gap: 40px; /* lg:gap-10 */
+    gap: 40px;
   }
 }

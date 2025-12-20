@@ -40,6 +40,14 @@ const ContactFormSection : React.FC = () => {
   const handleSend = () => {
     const randomBool = Math.random() >= 0.5;
     openModal(randomBool ? "modal-success" : "modal-failed");
+    if(randomBool) {
+      setForm({
+        name: "",
+        email: "",
+        message: "",
+      });
+      setServices([]);
+    }
   };
 
   return (
@@ -48,7 +56,10 @@ const ContactFormSection : React.FC = () => {
         <h2 className="contact-title">Ready to Start? Let’s Talk.</h2>
         <p className="contact-subtitle">Tell us what you need, and we’ll get back to you soon.</p>
 
-        <form className="contact-form" onSubmit={handleSend}>
+        <form className="contact-form" onSubmit={(e) => {
+          e.preventDefault();
+          handleSend();
+        }}>
           {formField.map((field) => (
             <Input
               key={field.name}
